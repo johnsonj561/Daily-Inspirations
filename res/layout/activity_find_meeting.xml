@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ambrosia_canvas"
+    tools:context="com.putty.dailyreflection_v1_2.FindMeetingActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <RelativeLayout
+        android:background="@drawable/background_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:id="@+id/city_state_container">
+    
+    	<TextView 
+        	android:id="@+id/enterCityTextView"
+        	android:layout_alignParentLeft="true"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="10dp"
+        	android:textSize="18sp"
+        	android:typeface="serif"
+        	android:text="@string/enter_city_text"
+   		/>
+    
+    	<EditText
+        	android:id="@+id/enterCityEditText"
+        	android:layout_toRightOf="@id/enterCityTextView"
+        	android:layout_marginLeft="5dp"
+        	android:layout_alignBaseline="@id/enterCityTextView"
+        	android:layout_width="150dp"
+        	android:layout_height="wrap_content"
+        	android:textSize="18sp"
+        	android:typeface="serif"
+        	android:inputType="text"
+  		/>
+        
+  		<TextView 
+        	android:id="@+id/enterStateTextView"
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:layout_below="@id/enterCityTextView"
+        	android:layout_marginTop="5dp"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginLeft="10dp"
+        	android:textSize="18sp"
+        	android:typeface="serif"
+        	android:text="@string/enter_state_text"
+   		/>
+    
+    	<EditText
+        	android:id="@+id/enterStateEditText"
+        	android:layout_toRightOf="@id/enterStateTextView"
+			android:layout_alignBaseline="@id/enterStateTextView"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginLeft="10dp"
+        	android:layout_width="150dp"
+       		android:layout_height="wrap_content"
+       		android:textSize="18sp"
+        	android:typeface="serif"
+			android:inputType="text"
+  		/>
+    
+   </RelativeLayout>
+   
+    
+    <RelativeLayout
+        android:id="@+id/current_location_container"
+        android:layout_below="@id/city_state_container"
+        android:background="@drawable/background_one"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:padding="10dp">
+        
+        <CheckBox 
+            android:id="@+id/useCurrentLocationCheckBox"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            />
+        
+    	<TextView 
+        	android:id="@+id/useCurrentLocationTextView"
+        	android:textSize="18sp"
+        	android:typeface="serif"
+        	android:text="@string/use_location_text"
+			android:layout_toRightOf="@id/useCurrentLocationCheckBox"
+        	android:layout_marginLeft="5dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        />
+    
+    
+    </RelativeLayout>
+    
+    
+     <Button
+        android:id="@+id/findNAButton"
+        style="@style/ButtonTheme"
+        android:text="@string/find_na_text"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="40dp"
+		android:layout_centerHorizontal="true"
+   	/>
+     
+  	<Button
+        android:id="@+id/findAAButton"
+        style="@style/ButtonTheme"
+        android:text="@string/find_aa_text"
+        android:layout_above="@id/findNAButton"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+  	/>
+    
+    
+    
+</RelativeLayout>

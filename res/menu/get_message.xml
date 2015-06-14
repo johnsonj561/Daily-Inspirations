@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.putty.dailyreflection_v1_2.GetMessageActivity" >
+
+    <item
+        android:id="@+id/action_exitapp"
+        android:orderInCategory="400"
+        android:title="@string/action_exit_text"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_notificationAlarm"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/notifications_alarm_text"/>
+
+</menu>

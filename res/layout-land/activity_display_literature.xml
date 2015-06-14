@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.putty.dailyreflection_v1_2.DisplayLiteratureActivity"
+    tools:ignore="MergeRootFrame" >
+
+	
+	<TextView
+	    android:id="@+id/literatureTitleTextView"
+	    android:layout_alignParentTop="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+		android:textSize="26sp"
+		android:textStyle="bold"
+		android:textAllCaps="true"
+    />
+		
+	<TextView
+	    android:id="@+id/literatureTextView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	   	android:gravity="center"
+	   	android:padding="15dp"
+	   	android:scrollHorizontally="false"
+	    android:scrollbarFadeDuration="2000"
+	    android:layout_below="@id/literatureTitleTextView"
+	    android:layout_marginTop="10dp"
+	    android:scrollbars="vertical"
+	/>
+    
+    
+    
+</RelativeLayout>

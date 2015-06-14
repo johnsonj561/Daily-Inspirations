@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.putty.dailyreflection_v1_2.SobrietyCounterActivity"
+    tools:ignore="MergeRootFrame" 
+    >
+    
+    <TextView 
+        android:id="@+id/justForTodayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/just_for_today_text"
+        android:textSize="26sp"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        />
+    
+    <ImageView 
+    	android:id="@+id/aaLogo"
+   	    android:src="@drawable/aa_logo_ambrosiablue"
+   	    android:layout_width="150dp"
+   	    android:layout_height="150dp"
+   	    android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="45dp"   
+		android:contentDescription="@string/aa_logo_text" 	    
+   	    />
+    
+    <Button
+        android:id="@+id/changeDateButon"
+      	style="@style/ButtonTheme"
+      	android:visibility="invisible"
+      	/>
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="20dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:text="@string/cancel_text"
+		/>
+    
+  	<Spinner
+        android:id="@+id/counterOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/counterText"
+        android:layout_toRightOf="@id/counterText"
+        android:layout_toEndOf="@id/counterText"
+        />
+    
+</RelativeLayout>

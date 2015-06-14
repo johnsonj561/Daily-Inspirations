@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.putty.dailyreflection_v1_2.ViewLiteratureActivity"
+    tools:ignore="MergeRootFrame" 
+    android:background="@drawable/ambrosia_canvas" >
+
+	<Button
+        style="@style/ButtonTheme"
+        android:id="@+id/aaPreambleButton"
+        android:text="@string/aa_preamble_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+    
+  	<Button
+        style="@style/ButtonTheme"
+        android:id="@+id/aaHowItWorksButton"
+        android:text="@string/how_it_works_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        />
+        
+   	<Button
+        style="@style/ButtonTheme"
+        android:id="@+id/aaTraditionsButton"
+        android:text="@string/traditions_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        />
+            
+	 <Button
+        style="@style/ButtonTheme"
+        android:id="@+id/aaPromisesButton"
+        android:text="@string/promises_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        />
+	 
+	<Button
+        style="@style/ButtonTheme"
+        android:id="@+id/serenityPrayerButton"
+        android:text="@string/serenity_prayer_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        />
+    
+	
+</RelativeLayout>
+    
+    

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APPLICATION TEXT ................................................ -->
+    <string name="app_name">Daily Inspirations</string>
+    <string name="action_settings_text">Settings</string>
+    <string name="ok_text">OK</string>
+    <string name="submit_text">Submit</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="action_exit_text">Exit</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="home_text">Home</string>
+    <string name="action_fontSize_text">Font Size</string>
+    <!-- ................................................................. -->
+
+
+    <!-- APPLICATION COLORS .............................................. -->
+    <string name="button_text_color">#1585B5</string>
+    <string name="button_background_color">#80CBC8C8</string>
+    <!-- ................................................................. -->
+
+
+    <!-- HOME PAGE TEXT .................................................. -->
+    <string name="get_message_text">Today\'s Message</string>
+    <string name="get_literature_text">Literature</string>
+    <string name="find_meeting_text">Find Meeting</string>
+    <string name="sobriety_counter_text">Sobriety Counter</string>
+    <string name="get_help_text">Get Help</string>
+    <!-- ................................................................. -->
+
+
+    <!-- GET MESSAGE TEXT ................................................ -->
+    <string name="carry_message_text">Carry This Message</string>
+    <string name="share_button_text">Share</string>
+    <!-- ................................................................. -->
+
+
+    <!-- 12 STEP LITERATURE TEXT ......................................... -->
+    <string name="bigbook_text">Big Book Text</string>
+    <string name="aa_preamble_text">AA Preamble</string>
+    <string name="how_it_works_text">How It Works</string>
+    <string name="promises_text">The Promises</string>
+    <string name="traditions_text">12 Traditions</string>
+    <string name="serenity_prayer_text">Serenity Prayer</string>
+    <!-- ................................................................. -->
+
+
+    <!-- FIND A MEETING TEXT ............................................. -->
+    <string name="enter_city_and_state_text">Enter City and State</string>
+    <string name="enter_city_text">Enter City:</string>
+    <string name="enter_state_text">Enter State:</string>
+    <string name="enter_zip_text">Enter Zipcode:</string>
+    <string name="use_location_text"> Or Use Current Location</string>
+    <string name="find_aa_text">Find AA</string>
+    <string name="find_na_text">Find NA</string>
+    <!-- ................................................................. -->
+
+
+    <!-- SOBRIETY COUNTER TEXT ........................................... -->
+    <string name="congratulations_text">CONGRATULATIONS</string>
+    <string name="been_sober_for_text">You\'ve Been Free For</string>
+    <string name="change_date_text">Change Sobriety Date</string>
+    <string name="seconds_text">Seconds</string>
+    <string name="minutes_text">Minutes</string>
+    <string name="days_text">Days</string>
+    <string name="years_text">Years</string>
+    <string name="just_for_today_text">JUST FOR TODAY</string>
+    <string name="aa_logo_text">AA Logo</string>
+    <!-- ................................................................. -->
+
+
+    <!-- SETTINGS TEXT ................................................... -->
+    <string name="notifications_text">Notifications</string>
+    <string name="notifications_alarm_text">Notification Alarm</string>
+    <string name="share_options_text">Share Options</string>
+    <string name="chip_color_option_text">Display chip color when sharing messages:</string>
+    <!-- ................................................................. -->
+
+    <string name="title_activity_view_literature">ViewLiteratureActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_literature">DisplayLiteratureActivity</string>
+    <string name="title_activity_find_meeting">FindMeetingActivity</string>
+    <string name="title_activity_message_notification">MessageNotification</string>
+    <string name="title_activity_on_reboot">OnReboot</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

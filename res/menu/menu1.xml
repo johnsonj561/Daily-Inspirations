@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.putty.dailyreflection_v1_2.DisplayLiteratureActivity" >
+
+    <item
+        android:id="@+id/action_exitapp"
+        android:orderInCategory="100"
+        android:title="@string/action_exit_text"
+        android:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ambrosia_canvas"
+    tools:context="com.putty.dailyreflection_v1_2.HomePage"
+    tools:ignore="MergeRootFrame" >
+    
+    <Button
+	    android:id="@+id/literatureButton"
+	    style="@style/ButtonTheme"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="25dp"
+		android:layout_marginLeft="10dp"
+	    android:text="@string/get_literature_text" />
+
+	<Button
+	    android:id="@+id/getMessageButton"
+	    style="@style/ButtonTheme"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="25dp"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/get_message_text" />
+	
+	<Button
+	    android:id="@+id/findMeetingButton"
+	    style="@style/ButtonTheme"
+		android:layout_alignParentTop="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginTop="25dp"
+	    android:layout_marginRight="10dp"
+	    android:text="@string/find_meeting_text" />
+
+	
+	<Button
+	    android:id="@+id/sobrietyCounterButton"
+	    style="@style/ButtonTheme"
+	    android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="25dp"
+		android:layout_marginLeft="50dp"
+	    android:text="@string/sobriety_counter_text" />
+
+	<Button
+	    android:id="@+id/getHelpButton"
+	    style="@style/ButtonTheme"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="25dp"
+	    android:layout_marginRight="50dp"
+	    android:text="@string/get_help_text" />
+    
+</RelativeLayout>

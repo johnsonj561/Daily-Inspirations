@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "reflectionQuotes">
+	<item>"Since we live by the Spirit, let us keep in step with the Spirit."\nGalatians 5:25</item>
+	<item>"Be completely humble and gentle; be patient, bearing with one another in love."\nEphesians 4:2</item> 
+	<item>"My dear brothers and sisters, take note of this: Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires."\nJames 1:19&#8211;20</item>
+	<item>"Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as yourself."\nLeviticus 19:18</item>
+	<item>"Blessed are the meek, for they will inherit the earth."\nMatthew 5:5</item>
+	<item>"Blessed are those who hunger and thirst for righteousness, for they will be filled."\nMatthew 5:6</item>
+	<item>Blessed are the pure in heart, for they will see God."\nMatthew 5:8</item>
+	<item>"How can you say to your brother, 'Let me take the speck out of your eye,' when all the time there is a plank in your own eye?"\nMatthew 7:4</item>
+	<item>"Do not judge, or you too will be judged."\nMatthew 7:1</item>
+	<item>"I sought the Lord, and he answered me; he delivered me from all my fears."\nPsalm 34:4</item>
+	<item>"Do not be overcome by evil, but overcome evil with good."\nRomans 12:21</item>
+	<item>"Humble yourselves before the Lord, and he will lift you up."\nJames 4:10</item>
+	<item>"Do not conform to the pattern of this world, but be transformed by the renewing of your mind."\nRomans 12:2</item>
+	<item>"Today you are you! That is truer than true! There is no one alive who is you-er than you!"\nDr. Seuss</item>
+	<item>"Step with care and great tact ,and remember that Life's a Great Balancing Act."\nDr. Seuss</item>
+	<item>"We cannot solve our problems with the same thinking we used when we created them."\nAlbert Einstein</item>
+	<item>"Love all, trust a few, do wrong to none."\nWilliam Shakespeare</item>
+	<item>"Open your eyes, look within. Are you satisfied with the life you're living?"\nBob Marley</item>
+	<item>"When one door is closed, don't you know, another is open."\nBob Marley</item>
+	<item>"God, our Creator, has stored within our minds and personalities, great potential strength and ability. Prayer helps us tap and develop these powers."\nAbdul Kalam</item>
+	<item>"We should not give up and we should not allow the problem to defeat us."\nAbdul Kalam</item>    
+	<item>"The best way to cheer yourself up is to try to cheer somebody else up."\nMark Twain</item>
+	<item>"Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment."\nBuddha</item>
+	<item>"Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."\nBuddha</item>
+	<item>"Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned."\nBuddha</item>
+	<item>"It is better to conquer yourself than to win a thousand battles. Then the victory is yours. It cannot be taken from you, not by angels or by demons, heaven or hell."\nBuddha</item>
+	<item>"To be idle is a short road to death and to be diligent is a way of life; foolish people are idle, wise people are diligent."\nBuddha</item>
+	<item>"However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?"\nBuddha</item>
+	<item>"If you do not change direction, you may end up where you are heading."\nLao Tzu</item>
+	<item>"The journey of a thousand miles begins with one step."\nLao Tzu</item>
+	<item>"When I let go of what I am, I become what I might be."\nLao Tzu</item>
+	<item>"Happiness is when what you think, what you say, and what you do are in harmony."\n Mahatma Gandhi</item>
+	<item>"The best way to find yourself is to lose yourself in the service of others."\nMahatma Gandhi</item>
+	<item>"An eye for an eye only ends up making the whole world blind."\nMahatma Gandhi</item>
+	<item>"When I admire the wonders of a sunset or the beauty of the moon, my soul expands in the worship of the creator."\nMahatma Gandhi</item>
+	<item>"We shall never know all the good that a simple smile can do."\nMother Teresa</item>
+	<item>"If you can't feed a hundred people, than feed just one."\nMother Teresa</item>
+	<item>"The miracle is not that we do this work, but that we are happy to do it."\nMother Teresa</item>
+	<item>"Let us more and more insist on raising funds of love, of kindness, of understanding, of peace. Money will come if we seek first the Kingdom of God - the rest will be given."\nMother Teresa</item>
+	<item>"I can't change the direction of the wind, but I can adjust my sails to always reach my destination."\nJimmy Dean</item> 
+	<item>"Believe you can and you're halfway there."\nTheodore Roosevelt</item>
+	<item>"Change your thoughts and you change your world."\nNorman Vincent Peale</item>
+	<item>"Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain&#8230; To feel the freedom that comes from being able to continue to make mistakes and choices \- today I choose to feel life, not to deny my humanity but embrace it."\nKevyn Aucoin</item>
+	<item>"Don't judge each day by the harvest you reap but by the seeds that you plant."\nRobert Louis Stevenson</item>
+	<item>"We can't help everyone, but everyone can help someone."\nRonald Reagan</item>
+	<item>"We must let go of the life we have planned, so as to accept the one that is waiting for us."\nJoseph Campbell</item>
+	<item>"Your present circumstances don't determine where you can go; they merely determine where you start."\nNido Qubein</item>
+	<item>"What we achieve inwardly will change outer reality."\n Plutarch</item>
+	<item>"Find out who you are and be that person. That's what your soul was put on this Earth to be. Find that truth, live that truth and everything else will come."\nEllen DeGeneres</item>
+	<item>"Life is really simple, but we insist on making it complicated."\nConfucius</item>
+	<item>"The privilege of a lifetime is being who you are."\nJoseph Campbell</item>
+	<item>"Life is ten percent what happens to you and ninety percent how you respond to it."\nLou Holtz</item>
+    </string-array>
+    
+    
+   	<string-array name="counter_options_array">
+        <item>Days</item>
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Years</item>
+    </string-array>
+    
+   	
+    
+</resources>
